@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "honeybadger"
+version = "0.1.0"
+description = "HoneyBadger assistant framework with local model routing, vision, memory, and UI."
+authors = [
+  {name = "HoneyBadger", email = "dev@honeybadger.local"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: Microsoft :: Windows",
+  "License :: OSI Approved :: MIT License"
+]
+
+[project.urls]
+"Homepage" = "https://example.com/honeybadger"
+
+[tool.setuptools]
+packages = ["honeybadger"]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+"honeybadger" = ["py.typed"]

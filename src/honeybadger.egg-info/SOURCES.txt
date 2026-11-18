@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/honeybadger/__init__.py
+src/honeybadger/cloud_sync.py
+src/honeybadger/config.py
+src/honeybadger/main.py
+src/honeybadger.egg-info/PKG-INFO
+src/honeybadger.egg-info/SOURCES.txt
+src/honeybadger.egg-info/dependency_links.txt
+src/honeybadger.egg-info/top_level.txt
+tests/test_config.py
+tests/test_main.py

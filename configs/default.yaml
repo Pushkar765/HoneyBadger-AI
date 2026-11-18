@@ -1,0 +1,6 @@
+ollama_url: http://localhost:11434
+max_vram_gb: 3.5
+openai_api_key: your_key
+anthropic_api_key: your_key
+home_assistant_url: http://localhost:8123
+home_assistant_token: your_token

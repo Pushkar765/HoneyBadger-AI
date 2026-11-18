@@ -1,0 +1,28 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+*.venv/
+
+# Environment Variables & Secrets
+.env
+*.env
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Scratch & Temporary Test Files
+test.mp3
+test_tts_scratch.py
+test_tts_pyside.py
+
+# Windows / OS Artifacts
+HoneyBadger.lnk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
